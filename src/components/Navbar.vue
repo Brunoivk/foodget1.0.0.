@@ -2,7 +2,7 @@
     <div class="hello">
    <nav class="navbar custom-nav  navbar-expand-lg navbar-light " style="background-color: #6d6c96;">
      <div class="container">
-        <router-link class="navbar-brand" to="/naslovnica">Naslovnica</router-link>
+        <router-link class="navbar-brand" to="/">Naslovnica</router-link>
         <router-link class="navbar-brand" to="/onama">O nama</router-link>
         <router-link class="navbar-brand" to="/forum">Forum</router-link>
         <router-link v-if="authenticated" class="navbar-brand" to="/recepti">Recepti</router-link>
